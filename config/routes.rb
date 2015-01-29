@@ -1,3 +1,5 @@
 Rails.application.routes.draw do
-  root 'application#index'
+  get '/' => 'application#index'
+  get '/tables' => 'application#tables'
+  get '/forms' => 'application#forms'
 end

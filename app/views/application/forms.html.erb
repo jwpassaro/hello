@@ -1,0 +1,77 @@
+<html>
+  <head>
+    <title>Example Form</title>
+  </head>
+  <body>
+    <form method="post" action="/register">
+      <div class="field">
+        <label>
+          First Name
+          <input type="text" name="first_name" value="Jennifer">
+        </label>
+      </div>
+
+      <div class="field">
+        <label>
+          Last Name
+          <input type="text" name="first_name" value="Passaro">
+        </label>
+      </div>
+
+      <div class="field">
+        <label>
+          Email
+          <input type="email" name="email_address">
+        </label>
+      </div>
+
+      <div class="field">
+        <label>
+          Password
+          <input type="password" name="password">
+        </label>
+      </div>
+
+      <div class="field">
+        <label>
+          <input type="checkbox" name="newsletter" value="1" checked="checked"> Yes, I would like to receive your weekly newsletter.
+        </label>
+      </div>
+
+      <div class="field">
+        <label>
+          <input type="radio" name="gender" value="m">
+          Male
+        </label>
+        <label>
+          <input type="radio" name="gender" value="f">
+          Female
+        </label>
+      </div>
+
+      <div class="field">
+        <label>
+          Year of Birth
+          <select name="year_of_birth">
+            <option></option>
+            <option value="1985">1985</option>
+            <option value="1984">1984</option>
+            <option value="1983">1983</option>
+          </select>
+        </label>
+      </div>
+
+      <div class="field">
+        <label>
+          How would you describe yourself?
+          <textarea name="description" rows="20" cols="80"></textarea>
+        </label>
+      </div>
+
+      <div class="controls">
+        <button type="submit">Register</button>
+      </div>
+
+    </form>
+  </body>
+</html>
